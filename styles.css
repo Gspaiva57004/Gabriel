@@ -1,0 +1,35 @@
+img{
+    border-style: ridge;
+    border-radius: 500%;        
+}
+
+/* Style the navigation menu */
+nav {
+    display: flex;
+    float:left;
+    width:20%;
+}
+.Nome{
+    background-color:powderblue;
+    font-size:150%;
+    width:80%;
+    float:left;
+}
+.p1{
+    style="width:80%
+}
+.topico{
+    background-color:powderblue;
+    font-size:150%
+}
+.lista1{
+    font-size:120;
+}
+.duração{
+    color:#d3d3d3;
+}
+/*.tamanho{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+} */
