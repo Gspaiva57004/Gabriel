@@ -1,0 +1,152 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>web Cardápio</title>
+        <style>
+            header{
+                font-family:kristen ITC;
+                text-align: center;
+            }
+            mark{
+                font-family:kristen ITC;
+                border-radius: 10px;
+                font-size: 120%;
+                color:#FFF3C2;
+                background-color:#A61C28;
+            }
+            table{
+                text-align: center;
+                width: 100%;
+                color: white;
+                border-radius: 10px;
+                border-style: ridge;
+                border-color: #A61C28;
+                background-color:#F26671;
+            }
+            td{
+                border-style: ridge;
+                border-radius: 10px;
+            }
+         </style>   
+    </head>
+
+    <body style="background-color:#f8f2dc; margin-left: 20%; margin-right:20%">
+        <header>
+            <h1>
+                <img src="../Imagens/churros.png "; title="logo Churros Gourmet"; style="float: left; height:90px;">
+                <mark>
+                Churros Gourmet
+                </mark>
+            </h1>
+            <p>
+                <img src="../Imagens/diversos_churros.png"; title="Diversos Churros"; style="float:right;height:42px; text-align: left;">
+                O melhor churros que você comerá!!😋
+            </p>   
+        </header>
+        <table>
+            <tr>
+                <th colspan="2" style="background-color: #A61C28;color: white; border-radius: 10px; border-color:#A61C28";> Doces</th>
+            </tr>
+            <tr>
+                <th>Sabores</th>
+                <th>Preços</th>
+            </tr>
+            <tr style="width:100%; background-color: #F2E4BB; color:#A61C28;">
+                <td>Chocolate</td>
+                <td>R$: 7,00</td>
+            </tr>
+            <tr style="width:100%; background-color: #F2E4BB; color:#A61C28;">
+                <td>Doce de leite</td>
+                <td>R$: 7,00</td>
+            </tr>
+            <tr style="width:100%; background-color: #F2E4BB; color:#A61C28;">
+                <td>Morango</td>
+                <td>R$: 7,00</td>
+            </tr>
+            <tr style="width:100%; background-color: #F2E4BB; color:#A61C28;">
+                <td>Galak</td>
+                <td>R$: 10,00</td>
+            </tr>
+            <tr style="width:100%; background-color: #F2E4BB; color:#A61C28;">
+                <td>Nutella</td>
+                <td>R$: 10,00</td>
+            </tr>
+            <tr style="widh:100%; background-color: #F2E4BB; color:#A61C28;">
+                <td>Ninho</td>
+                <td>R$: 10,00</td>
+            </tr>
+            <tr style="width:100%; background-color: #F2E4BB; color:#A61C28;">
+                <td>Romeu e Julieta</td>
+                <td>R$: 10,00</td>
+            </tr>
+            <tr style="width:100%; background-color: #F2E4BB; color:#A61C28;">
+                <td>Junção de dois sabores tradicionais</td>
+                <td>R$: 10,00</td>
+            </tr>
+        </table>        
+        <table style="margin-top:10px">
+            <tr>
+                <th colspan="2" style="background-color: #A61C28;color: white; border-radius: 10px; border-color:#A61C28";> Salgados</th>
+            </tr>
+            <tr>
+                <th>Sabores</th>
+                <th>Preços</th>
+            </tr>
+            <tr style="width:100%; background-color: #F2E4BB; color:#A61C28;">
+                <td>Queijo</td>
+                <td>R$: 10,00</td>
+            </tr>
+            <tr style="width:100%; background-color: #F2E4BB; color:#A61C28;">
+                <td>Cheddar</td>
+                <td>R$: 10,00</td>
+            </tr>
+            <tr style="width:100%; background-color: #F2E4BB; color:#A61C28;">
+                <td>Calabresa</td>
+                <td>R$: 10,00</td>
+            </tr>
+            <tr style="width:100%; background-color: #F2E4BB; color:#A61C28;">
+                <td>Quatro queijos</td>
+                <td>R$: 10,00</td>
+            </tr>
+            <tr style="width:100%; background-color: #F2E4BB; color:#A61C28;">
+                <td>Maionese</td>
+                <td>R$: 10,00</td>
+            </tr>
+            <tr style="width:100%; background-color: #F2E4BB; color:#A61C28;">
+                <td>Carne</td>
+                <td>R$: 10,00</td>
+            </tr>
+            <tr style="width:100%; background-color: #F2E4BB; color:#A61C28;">
+                <td>Bacon</td>
+                <td>R$: 10,00</td>
+            </tr>
+        </table>
+        <h1 style="text-align: center";>
+            <img src="../Imagens/cadastro.png"; title="Logo Cadastro"; style="float: left; height:100px;">
+            <mark>Cadastro do Cliente</mark>
+        </h1>
+        <p style="text-align: center; font-family:kristen ITC;">Após decidir qual(is) churros você vai querer,<br>preencha o formulário abaixo com os seus dados.</p>
+        <form>
+            <fieldset style="border-color:#A61C28; border-radius:10px; background-color: #F26671">
+                <legend><mark style="background-color: #A61C28; color:#F2E4BB">Formulário:</mark></legend>
+                <label for="fname">Nome completo:</label><br>
+                <input type="text" id="fname" name="fname" value=" " style="width:100%"><br>
+                <label for="lname">Email:</label><br>
+                <input type="email" id="email" name="email" value=" " style="width:100%"><br>
+                <labelfor="fname">Telefone:</label><br>
+                <input type="text" id="fname" name="fname" value=" " style="width:100%;"><br>
+                <legend style="margin-top:10px;">Esse número é Whatsapp?</legend><br>
+                <input type="radio" id="sim" name="sim" value="Sim">
+                <label for="Sim">Sim</label><br>
+                <input type="radio" id="não" name="não" value="Não">
+                <label for="Não">Não</label><br>
+                <p>   </p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </fieldset>
+        </form>
+    </body>
+</html>
