@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="calculadora.js"></script>
+    
+    <style>
+        body{
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <h1 style="text-align: center;">Calculadora</h1>
+    
+    <fieldset style="background-color: antiquewhite;">
+        <legend>Digite um numero</legend>
+        <input type="text" id="num1" style="width: 40%;">
+        <input type="text" id="num2" style="width: 40%;">
+        <p style="text-align: center;">
+            <button onclick="calcularDoisNumeros('*')">
+                *
+            </button>
+        
+            <button onclick="calcularDoisNumeros('/')">
+                /
+            </button>
+        
+            <button onclick="calcularDoisNumeros('+')">
+                +
+            </button>
+        
+            <button onclick="calcularDoisNumeros('-')">
+                -
+            </button>
+            <fieldset style="background-color: black;">
+                <p id="resultado" style="text-align: center; color: aliceblue;"></p>
+            </fieldset>
+        </p>                   
+    </fieldset>
+    <h1 style="text-align: center;">Tabuada</h1>
+    <fieldset>
+        <input type="text" id="number" style="width: 40%;">
+    </fieldset>          
+
+</body>
+</html>
