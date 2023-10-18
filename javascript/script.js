@@ -3,6 +3,7 @@ function teste1(){
     document.querySelector('#teste1').style.color ='blue'
     document.querySelector('#teste1').style.fontSize ='100px'
 }
+
 function teste2(){
     document.getElementById("teste2").innerHTML = "Olá, Gabriel aqui"
     document.querySelector('#teste2').style.color ='blue'

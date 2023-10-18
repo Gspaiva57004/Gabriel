@@ -6,6 +6,7 @@ function calcularDoisNumeros(operacao){
     let resposta
 
     switch(operacao){
+        
         case "*": resposta= num1 * num2
         break
         case "+": resposta = num1 + num2
