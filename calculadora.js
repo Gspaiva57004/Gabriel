@@ -6,7 +6,7 @@ function calcularDoisNumeros(operacao){
     let resposta
 
     switch(operacao){
-        
+         
         case "*": resposta= num1 * num2
         break
         case "+": resposta = num1 + num2
@@ -16,10 +16,23 @@ function calcularDoisNumeros(operacao){
         case "/": resposta = num1 / num2
     }
     document.getElementById("resultado").innerHTML = resposta
-}
-let Number = " ";
+}/*
+let numero = Number(document.getElementById("numero").value);
 
 function tabuada(){
-    for(let i=0; i<=10 ; i++)
-     tabuada += Number + "* " + 1 + "=" + Number;
-  }
+    for(let y=0; y<=10 ; x++)
+     tabuada += numero + "x" + y + "=" + numero * y + "<br>";
+}*/
+
+const listaDeAlunos = ["Matheus", "Laura", "João", "Maria"];
+
+function mostrarLista(){
+    let i = 0
+    let  lista = ""
+
+    while(i < listaDeAlunos.length){
+        lista += listaDeAlunos[i] + " <br>" 
+        i++
+    }
+    document.getElementById("lista2").innerHTML = lista
+}

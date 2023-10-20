@@ -10,19 +10,20 @@
         body{
             margin-left: 20%;
             margin-right: 20%;
+            background-color: #D97B59;
         }
     </style>
-    
+     
 </head>
 
 <body>
     <h1 style="text-align: center;">Calculadora</h1>
      
     
-    <fieldset style="background-color: antiquewhite;">
-        <legend>Digite um numero</legend>
-        <input type="text" id="num1" style="width: 40%;">
-        <input type="text" id="num2" style="width: 40%;">
+    <fieldset style="background-color:#A68C6D; margin-bottom: 10px; border-radius:10px; border-color: black;">
+        <legend><mark style="background-color:#8C3D35; border-radius:5px; color: white;">Digite um numero</mark></legend>
+        <input type="text" id="num1" style="width: 50%; ">
+        <input type="text" id="num2" style="width: 45%;">
         <p style="text-align: center;">
             <button onclick="calcularDoisNumeros('*')">
                 *
@@ -39,15 +40,26 @@
             <button onclick="calcularDoisNumeros('-')">
                 -
             </button>
-            <fieldset style="background-color: black;">
-                <p id="resultado" style="text-align: center; color: aliceblue;"></p>
+            <fieldset style="background-color:#592C28; border-radius:10px;">
+                <p id="resultado" style="text-align: center; color: aliceblue; "></p>
             </fieldset>
-        </p>                   
+        </p>
     </fieldset>
-    <h1 style="text-align: center;">Tabuada</h1>
+
+    <!--h1 style="text-align: center;">Tabuada</h1>
     <fieldset>
-        <input type="text" id="number" style="width: 40%;">
-    </fieldset>          
+        <input type="text" id="tabuada" style="width: 100%;">
+    </fieldset-->  
+
+    <h1 style="text-align: center;">Lista de alunos</h1> 
+    <fieldset style="background-color: #A68C6D; border-radius:10px; border-color: black;">
+         <p style="text-align: center;">        
+            <button onclick="mostrarLista()">
+                Veja a Lista
+            </button>
+            <p id="lista2" style="text-align: center; font-size:50px; color: white;"></p>
+        </p>
+    </fieldset>
 
 </body>
 </html>
